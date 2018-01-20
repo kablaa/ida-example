@@ -4,5 +4,6 @@ O = example
 CFLAGS = -m32
 ALL:
 	$(CC) $(SRC)  $(CFLAGS) -o $(O)
+	strip $(O)
 
 
